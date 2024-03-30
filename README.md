@@ -11,3 +11,10 @@
 1. Run: `composer require --dev maker ormfixtures fakerphp/faker`
 1. Run: `cp .env .env.local`
 1. Change: DATABASE_URL="mysql://root:secret@database:3306/symfony_docker"
+
+
+## Test Suite
+1. composer require --dev symfony/test-pack
+
+1. composer require --dev vimeo/psalm
+1. ./vendor/bin/psalm --init
