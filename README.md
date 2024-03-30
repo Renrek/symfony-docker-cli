@@ -5,7 +5,7 @@
 1. Run: `docker compose up -d --build`
 1. Run: `docker compose exec php bash`
 1. Run: `symfony check:requirements`
-1. Run: `symfony new . --version="7.0.*"`
+1. Run: `symfony new .`
 1. Verify site is operational at http://localhost
 1. Run: `composer require twig doctrine`
 1. Run: `composer require --dev maker ormfixtures fakerphp/faker`
