@@ -12,6 +12,7 @@
 1. Run: `cp .env .env.local`
 1. Change: DATABASE_URL="mysql://root:secret@database:3306/symfony_docker"
 
+composer require --dev symfony/maker-bundle
 
 ## Test Suite
 1. composer require --dev symfony/test-pack
