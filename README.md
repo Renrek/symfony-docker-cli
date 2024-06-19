@@ -11,6 +11,8 @@
 1. Run: `composer require --dev maker ormfixtures fakerphp/faker`
 1. Run: `cp .env .env.local`
 1. Change: DATABASE_URL="mysql://root:secret@database:3306/symfony_docker"
+1. Run: `docker compose exec -it php bash`
+1. Run within container: `php bin/console doctrine:database:create`
 
 composer require --dev symfony/maker-bundle
 
